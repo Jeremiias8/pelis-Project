@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <script src="./js/src/main.js" type="module" defer></script>
+    <title>Proyecto Películas</title>
+</head>
+<body>
+    
+    <div class="layout">
+        <!-- Cabecera -->
+        <header class="header">
+            <div class="logo">
+                <div class="play"></div>
+            </div>
+            
+            <h1>Contacto</h1>
+        </header>
+
+        <!-- Barra de navegación -->
+        <nav class="nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+            </ul>
+        </nav>
+
+        <!-- Barra Lateral -->
+        <aside class="lateral">
+
+            <div class="add">
+                <h3 class="title">Formulario</h3>
+                <form>
+                    <input type="text" id="title" placeholder="Nombre Completo" />
+                    <textarea id="description" placeholder="Proyecto deseado"></textarea> <br>
+
+                    <label for="título">Tecnología - Framework a usar</label>
+                    <select>
+                        <option value="1">Angular</option>
+                        <option value="2">React</option>
+                        <option value="3">Laravel</option>
+                        <option value="4">Express</option>
+                        <option value="5">Django</option>
+                    </select> <br>
+
+                    <label for="hours">Horas disponibles</label>
+                    <input type="number" /> <br>
+
+                    <input type="submit" id="save" value="Guardar" />
+                </form>
+            </div>
+        </aside>
+
+        <!-- Pie de página -->
+        <footer class="footer">
+            &copy; Proyecto hecho en Máster de JavaScript Moderno - <a href="linkedin.com/in/jeremías-fernández-1ab01922a">Mi Linkedln</a>
+        </footer>
+    </div>
+
+</body>
+</html>
